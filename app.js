@@ -33,6 +33,7 @@ app.use(require('node-sass-middleware')({
 }));
 
 app.use('/src', express.static(path.join(__dirname, 'src')));
+app.use('/dist', express.static(path.join(__dirname, 'dist')));
 
 app.use('/', routes);
 
