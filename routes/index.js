@@ -6,7 +6,7 @@ var express = require('express'),
   registerController = require('../controllers/register.controller.js');
 
 router.get('/', homeController.index);
-router.get('/user:name', userController.index);
+router.get('/user/:name', userController.index);
 router.get('/ranking', rankingController.index);
 router.get('/register', registerController.index);
 
