@@ -1,9 +1,7 @@
-var express = require('express');
-var router = express.Router();
+var express = require('express'),
+  router = express.Router(),
+  homeController = require('../controllers/home.controller.js');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'UI-Generator' });
-});
+router.get('/', homeController.index);
 
 module.exports = router;
