@@ -3,7 +3,7 @@ var gulp        = require('gulp'),
     del         = require('del'); // rm -rf
     uglify      = require('gulp-uglify'),
     nodemon     = require('gulp-nodemon'),
-    nib         = require('nib');
+    nib         = require('nib'),
     stylus      = require('gulp-stylus');
 
 gulp.task('delete', function() {
