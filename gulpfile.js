@@ -81,6 +81,5 @@ gulp.task('css', function () {
 });
 
 gulp.task('build', ['delete', 'bundleJs', 'copyAssets', 'copyFonts', 'copyGraficos', 'copyGraphics', 'copyIcons', 'copyImg', 'copyInit', 'copyMapas', 'copyMaps', 'css']);
-// gulp.task('build', ['delete', 'copyImages', 'copyFonts', 'bundleJs', 'css']);
 
 gulp.task('default', ['build','server']);
