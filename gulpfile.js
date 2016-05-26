@@ -1,6 +1,6 @@
 var gulp        = require('gulp'),
     concat      = require('gulp-concat'),
-    del         = require('del'); // rm -rf
+    del         = require('del'), // rm -rf
     uglify      = require('gulp-uglify'),
     nodemon     = require('gulp-nodemon'),
     nib         = require('nib'),
